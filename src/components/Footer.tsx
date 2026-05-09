@@ -77,8 +77,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-slate-800/50 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm flex items-center gap-1">
-            © {new Date().getFullYear()} RDZ Network Solutions. Made with
-            <Heart className="w-4 h-4 text-red-500 fill-red-500" />
+            © 2020 RDZ Network Solutions
           </p>
           <button
             onClick={scrollToTop}
